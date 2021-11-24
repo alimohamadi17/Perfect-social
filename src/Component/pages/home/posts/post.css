@@ -1,0 +1,91 @@
+.postcontainer{
+    width: 100%;
+    background-color: #ffff;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68); 
+box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+border-radius: 10px;
+margin: 30px 0;
+}
+.postwrapper{
+    padding: 10px;
+
+}
+.postTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.images{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.topleft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+}
+
+.names{
+    font-weight: 500;
+    font-size: 15px;
+    margin: 0 10px;
+    font-family: 'Lobster', cursive;
+}
+
+.dates{
+    color: rgb(151, 137, 137);
+}
+
+
+.postcenter{
+    margin: 20px 0;
+}
+.imagepost{
+    margin-top: 20px;
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+    
+}
+.show{
+    color:red;
+    width: 24px;
+    height: 24px;
+    
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.postbotton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text{
+    font-family: 'Mukta', sans-serif;
+}
+
+.postbottonLeft{
+    display: flex;
+    align-content: center;
+}
+.postbottonRight{
+    display: flex;
+    align-content: center;
+    border-bottom: 1px dashed #ccc;
+
+}
+
+.icon , .iconcomment{
+    width: 24px;
+    height: 24px;
+    color: #998f8f;
+    margin-right: 5px;
+    cursor: pointer;
+}
+

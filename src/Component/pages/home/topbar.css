@@ -1,0 +1,97 @@
+.logo{
+    font-family: 'Lobster', cursive;
+   
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.searchBar{
+    width: 100%;
+    height: 30px;
+    background-color: white;  
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+.searchIcon{
+    font-size: 20px !important ;
+    margin-left: 10px;
+}
+.inputBar{
+    border: none;
+    width: 70%; 
+    font-family: 'Oleo Script', cursive;
+
+}
+.inputBar:focus{
+    outline: none;
+}
+
+.topbarContainer{
+    height: 50px;
+    width: 100%;
+    background-color: #1877f2;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.topbarLeft{
+    flex: 3;
+}
+
+.topbarCenter{
+    flex: 5;
+}
+
+.topbarRigth{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.topBarIcon{
+    display: flex;
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.topBarIconBadge{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    color: white;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.topbarLinks{
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.topbarLink{
+    font-family: 'Oleo Script', cursive;
+
+    margin:5px;
+}
+.topBarImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid white;
+}

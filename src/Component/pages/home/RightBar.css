@@ -1,0 +1,67 @@
+.RightBar{
+    flex:3.5;
+    
+}
+.rightbartop{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.rightimage{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 10px 15px 0 0;
+}
+.righttext{
+   font-family: 'Corben', cursive;
+   font-size: 18px;
+   border-bottom: 1px dashed rgb(194, 188, 188);
+}
+.imageMain{
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px 0;
+    
+    
+}
+
+.rightbarlist{
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.rightbarlistitem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.rightbarcontainerimage{
+    margin-right: 10px;
+    position: relative;
+
+}
+.rightbarlistimage{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.rightbaronline{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: lightgreen;
+    position: absolute;
+    top: -3px;
+    right: 0px;
+    border: 2px solid white;
+}
+
+.rightbaronlineNmae{
+    font-weight: 500;
+    font-family: 'Oleo Script', cursive;
+}
